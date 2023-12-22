@@ -1,0 +1,320 @@
+
+@media screen and  (max-width : 576px){
+    .header{
+        background-color: blue;
+        height: 6.2rem;
+        padding-top: 10px;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .header .mx-w{
+        max-width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .d-none{
+        display: none;
+    }
+    
+    .df{
+        display: flex;
+    }
+    .dfb{
+        display: block;
+    }
+    .jcsb{
+        justify-content: space-between;
+    }
+    .pd{
+        padding-left: 20px;
+    }
+    
+    .header img {
+        width: 3rem;
+        height: 1rem;
+    }
+    
+    .input input{
+        width: 90%;
+        border-radius: 2px;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+      
+    }
+    .input{
+        margin-top: 10px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .header span{
+        color: #fff;
+        font-size: 10px;
+    }
+    
+    .header button{
+        background-color:blue;
+        border: 1px solid blue;
+        color: #fff;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    
+    .offcl{
+        background-color: rgb(6, 103, 239);
+    
+    }
+    
+    .offbtn{
+        background-color: rgb(6, 103, 239);
+        color: #fff;
+        font-size: 19px;
+        border: 1px solid rgb(6, 103, 239);
+        padding-top: 30px;
+    }
+    .d-n{
+        display: none;
+    }
+}
+@media screen and (min-width : 576px) and (max-width : 999px){
+    .header{
+        background-color: blue;
+        height: 6.2rem;
+        padding-top: 10px;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    
+    .header .mx-w{
+        max-width: 999px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .d-none{
+        display: none;
+    }
+    
+    .df{
+        display: flex;
+    }
+    .dfb{
+        display: block;
+    }
+    .jcsb{
+        justify-content: space-between;
+    }
+    .pd{
+        padding-left: 20px;
+    }
+    
+    .header img {
+        width: 3rem;
+        height: 1rem;
+    }
+    
+    .input input{
+        width: 90%;
+        border-radius: 2px;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+      
+    }
+    .input{
+        margin-top: 10px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .header span{
+        color: #fff;
+        font-size: 10px;
+    }
+    
+    .header button{
+        background-color:blue;
+        border: 1px solid blue;
+        color: #fff;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    
+    .offcl{
+        background-color: rgb(6, 103, 239);
+    
+    }
+    
+    .offbtn{
+        background-color: rgb(6, 103, 239);
+        color: #fff;
+        font-size: 19px;
+        border: 1px solid rgb(6, 103, 239);
+        padding-top: 30px;
+    }
+    .d-n{
+        display: none;
+    }
+}
+@media screen and (min-width : 1000px) and (max-width : 1200px){
+ 
+     .header .mx-w{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .header{
+        background-color: blue;
+        height: 6.2rem;
+        padding-top: 10px;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+    
+
+  
+    
+    .df{
+        display: flex;
+    }
+    .dfb{
+        display: block;
+    }
+    .jcsb{
+        justify-content: space-between;
+    }
+    .pd{
+        padding-left: 20px;
+    }
+    
+    .header img {
+        width: 5rem;
+        height: 2rem;
+    }
+    
+    .input input{
+        width: 90%;
+        border-radius: 2px;
+        border: 1px solid #fff;
+        padding: 5px 10px;
+      
+    }
+    .input{
+        margin-top: 10px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .header span{
+        color: #fff;
+        font-size: 10px;
+    }
+    
+    .header button{
+        background-color:blue;
+        border: 1px solid blue;
+        color: #fff;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    
+    .offcl{
+        background-color: rgb(6, 103, 239);
+    
+    }
+    
+    .offbtn{
+        background-color: rgb(6, 103, 239);
+        color: #fff;
+        font-size: 19px;
+        border: 1px solid rgb(6, 103, 239);
+        padding-top: 30px;
+    }
+}
+@media screen and (min-width : 1201px){
+
+    .header .mx-w{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .input input{
+        width: 30%;
+        border-radius: 2px;
+        border: 1px solid #fff;
+        padding: 8px 15px;
+        display: flex;
+        position: relative;
+        left: 150px;
+        bottom: 50px;
+    }
+    .header{
+        background-color: blue;
+        height: 4.2rem;
+        padding-top: 10px;
+        position: fixed;
+        width: 100%;
+        z-index: 10;
+    }
+
+    .input{
+        margin-top: 10px;
+        margin-left: 0%;
+        margin-right: 0%;
+        text-align: center;
+    }
+    .header span{
+        color: #fff;
+        font-size: 10px;
+    }
+    
+    .header button{
+        background-color:blue;
+        border: 1px solid blue;
+        color: #fff;
+        cursor: pointer;
+        font-size: 17px;
+    }
+    
+    .offcl{
+        background-color: rgb(6, 103, 239);
+    
+    }
+    
+    .offbtn{
+        background-color: rgb(6, 103, 239);
+        color: #fff;
+        font-size: 19px;
+        border: 1px solid rgb(6, 103, 239);
+        padding-top: 30px;
+    }
+    
+    
+    .df{
+        display: flex;
+    }
+    .dfb{
+        display: block;
+    }
+    .jcsb{
+        justify-content: space-between;
+    }
+    .pd{
+        padding-left: 20px;
+    }
+    
+    .header img {
+        width: 5rem;
+        height: 2rem;
+    }
+    .header p{
+        font-size: 10px;
+    }
+    
+}

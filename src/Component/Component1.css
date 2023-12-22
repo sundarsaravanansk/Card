@@ -1,0 +1,142 @@
+
+@media screen and  (max-width : 576px){
+    .comp1{
+        padding-top: 110px;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+       width: 100%;
+       
+    }
+    
+    .comp1 .df{
+        display: flex;
+        overflow: auto;
+    }
+    .comp1 .df::-webkit-scrollbar{
+        width: 0;
+    }
+    
+    .comp1 .jcsb{
+        justify-content: space-between;
+    }
+    
+    .comp1 .mx-w{
+        max-width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .comp1 img{
+        width: 5rem;
+        height: 3rem;
+        padding-left: 28px;
+    
+    }
+    
+    
+    
+    .comp1 p{
+        font-size: 8px;
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width : 576px) and (max-width : 999px){
+    .comp1{
+        padding-top: 110px;
+        margin-bottom: 10px;
+        padding-bottom: 0px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+       width: 100%;
+       
+    }
+    
+    .comp1 .df{
+        display: flex;
+        overflow: auto;
+    }
+    .comp1 .df::-webkit-scrollbar{
+        width: 0;
+    }
+    
+    .comp1 .jcsb{
+        justify-content: space-between;
+    }
+    
+    .comp1 .mx-w{
+        max-width: 999px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    
+    .comp1 img{
+        width: 6rem;
+        height: 5rem;
+        padding-left: 28px;
+    
+    }
+    
+    
+    
+    .comp1 p{
+        font-size: 11px;
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width : 1000px) and (max-width : 1200px){
+
+    .comp1 img{
+        width: 6rem;
+        height: 5rem;
+        padding-left: 28px;
+    
+    }
+    .comp1 .mx-w{
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .comp1 p{
+        font-size: 13px;
+        text-align: center;
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width : 1200px){
+    .comp1 .mx-w{
+        max-width: 1400px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+ 
+    .comp1 img{
+        width: 8rem;
+        height: 5rem;
+        padding-left: 28px;
+    
+    }
+    .comp1{
+        padding-top: 100px;
+        margin-bottom: 20px;
+        padding-bottom: 0px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+       width: 100%;
+       
+    }
+    .comp1 p{
+        font-size: 15px;
+        text-align: center;
+        padding-left: 30px;
+    }
+}

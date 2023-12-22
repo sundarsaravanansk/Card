@@ -1,0 +1,452 @@
+@media screen and  (max-width : 576px){
+    .popup{
+        position:fixed;
+        width: 100%;
+        height: 100rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        /* background-color: rgba(0, 0,  0, 0.5); */
+        background-color:rgb(105, 72, 122);
+        display: flex;
+      padding-top: 70px;
+      transition-delay: 1sm;
+      color: #fff;
+      z-index: 10;
+    }
+    
+    .popup .mx-w{
+        max-width: 576px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .exit{
+        background-color: #f40e0e;
+        cursor: pointer;
+       
+    }
+    .exit:hover{
+        background-color: #691c1c;
+    }
+    
+    
+    .popup.active{
+        display: flex;
+    }
+    
+    .popupin{
+        background-color: #fff;
+        color: #fff;
+        padding: 90px;
+        position: relative;
+    }
+    .close{
+        position: absolute;
+        cursor: pointer;
+        background-color: red;
+        border-radius: 20%;
+        padding: 5px 10px ;
+        border: 1px solid red;
+        right: 0px;
+        top: 53px;
+        color: #fff;
+    
+    }
+    .tab{
+        background-color: #fff;
+       
+    }
+    .padgtop{
+        padding-top: 70px;
+    }
+    
+    
+    .bg {
+        color: hsl( 259, 100%, 75%)!important;
+    }
+    
+    
+    
+    .lgt-clr {
+        color: #8e8e8e!important;
+    }
+    
+    .txt-cen {
+        text-align: center;
+        padding-top: 70px;
+       
+    }
+    
+    .pdg {
+        padding-top: 40px;
+    }
+    
+    
+    
+    .get-more-sec {
+        text-align: center;
+    }
+    
+    .dis {
+        display: inline-block;
+    }
+    
+    .pd-bt {
+        padding-top: 30px;
+    }
+    
+    table {
+      
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    
+    td,
+    th {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+    
+    .violet {
+         /* background-color: hsl( 259, 100%, 75%);  */
+         background-color: hsl(290, 94%, 20%); 
+        color: #fff;
+       position: relative;
+       bottom: 50px;
+       
+    }
+    
+    .lgt-violet {
+        /* background-color: rgb(240, 235, 250);  */
+        background-color: rgb(170, 61, 198);
+        
+    }
+    
+    .tik-cen {
+        width: 24px;
+        position: relative;
+        left: 45px;
+    }
+    .pop button{
+        cursor: pointer;
+        padding: 5px 20px;
+        background-color: #f40e0e;
+        color: #fff;
+        border-radius: 10px;
+        border: 3px solid #f40e0e;
+    }
+    
+    .pop button:hover{
+        background-color: rgb(163, 9, 9);
+        
+    }
+    .padgtop{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (min-width : 576px) and (max-width : 999px){
+    .popup{
+        position:fixed;
+        width: 100%;
+        height: 100rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        /* background-color: rgba(0, 0,  0, 0.5); */
+        background-color:rgb(105, 72, 122);
+        display: flex;
+      padding-top: 70px;
+      transition-delay: 1sm;
+      color: #fff;
+      z-index: 10;
+    }
+    
+    .popup .mx-w{
+        max-width: 999px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .exit{
+        background-color: #f40e0e;
+        cursor: pointer;
+       
+    }
+    .exit:hover{
+        background-color: #691c1c;
+    }
+    
+    
+    .popup.active{
+        display: flex;
+    }
+    
+    .popupin{
+        background-color: #fff;
+        color: #fff;
+        padding: 90px;
+        position: relative;
+    }
+    .close{
+        position: absolute;
+        cursor: pointer;
+        background-color: red;
+        border-radius: 20%;
+        padding: 5px 10px ;
+        border: 1px solid red;
+        right: 0px;
+        top: 53px;
+        color: #fff;
+    
+    }
+    .tab{
+        background-color: #fff;
+       
+    }
+    .padgtop{
+        padding-top: 70px;
+    }
+    
+    
+    .bg {
+        color: hsl( 259, 100%, 75%)!important;
+    }
+    
+    
+    
+    .lgt-clr {
+        color: #8e8e8e!important;
+    }
+    
+    .txt-cen {
+        text-align: center;
+        padding-top: 70px;
+       
+    }
+    
+    .pdg {
+        padding-top: 40px;
+    }
+    
+    
+    
+    .get-more-sec {
+        text-align: center;
+    }
+    
+    .dis {
+        display: inline-block;
+    }
+    
+    .pd-bt {
+        padding-top: 30px;
+    }
+    
+    table {
+      
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    
+    td,
+    th {
+        text-align: center;
+        font-size: 14px;
+        padding: 10px;
+        
+    }
+    
+    .violet {
+         /* background-color: hsl( 259, 100%, 75%);  */
+         background-color: hsl(228, 39%, 27%); 
+        color: #fff;
+       position: relative;
+       bottom: 50px;
+       
+    }
+    
+    .lgt-violet {
+        /* background-color: rgb(240, 235, 250);  */
+        background-color: rgb(170, 61, 198);
+        
+    }
+    
+    .tik-cen {
+        width: 24px;
+        position: relative;
+        left: 45px;
+    }
+    .pop button{
+        cursor: pointer;
+        padding: 5px 20px;
+        background-color: #f40e0e;
+        color: #fff;
+        border-radius: 10px;
+        border: 3px solid #f40e0e;
+    }
+    
+    .pop button:hover{
+        background-color: rgb(163, 9, 9);
+        
+    }
+    .padgtop{
+        padding-top: 70px;
+    }
+}
+
+@media screen and (min-width : 1000px){
+    .popup{
+        position:fixed;
+        width: 100%;
+        height: 100rem;
+        left: 0;
+        right: 0;
+        top: 0;
+        /* background-color: rgba(0, 0,  0, 0.5); */
+        background-color:rgb(105, 72, 122);
+        display: flex;
+      padding-top: 70px;
+      transition-delay: 1sm;
+      color: #fff;
+      z-index: 10;
+    }
+    
+    .popup .mx-w{
+        max-width: 1300px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .exit{
+        background-color: #f40e0e;
+        cursor: pointer;
+       
+    }
+    .exit:hover{
+        background-color: #691c1c;
+    }
+    
+    
+    .popup.active{
+        display: flex;
+    }
+    
+    .popupin{
+        background-color: #fff;
+        color: #fff;
+        padding: 90px;
+        position: relative;
+    }
+    .close{
+        position: absolute;
+        cursor: pointer;
+        background-color: red;
+        border-radius: 20%;
+        padding: 5px 10px ;
+        border: 1px solid red;
+        right: 0px;
+        top: 53px;
+        color: #fff;
+    
+    }
+    .tab{
+        background-color: #fff;
+       
+    }
+    .padgtop{
+        padding-top: 70px;
+    }
+    
+    
+    .bg {
+        color: hsl( 259, 100%, 75%)!important;
+    }
+    
+    
+    
+    .lgt-clr {
+        color: #8e8e8e!important;
+    }
+    
+    .txt-cen {
+        text-align: center;
+        padding-top: 70px;
+       
+    }
+    
+    .pdg {
+        padding-top: 40px;
+    }
+    
+    
+    
+    .get-more-sec {
+        text-align: center;
+    }
+    
+    .dis {
+        display: inline-block;
+    }
+    
+    .pd-bt {
+        padding-top: 30px;
+    }
+    
+    table {
+      
+        border-collapse: collapse;
+        width: 100%;
+    }
+    
+    
+    td,
+    th {
+        text-align: center;
+        font-size: 17px;
+        padding: 10px;
+        
+    }
+    
+    .violet {
+         /* background-color: hsl( 259, 100%, 75%);  */
+         background-color: hsl(228, 39%, 27%); 
+        color: #fff;
+       position: relative;
+       bottom: 50px;
+       
+    }
+    
+    .lgt-violet {
+        /* background-color: rgb(240, 235, 250);  */
+        background-color: rgb(170, 61, 198);
+        
+    }
+    
+    .tik-cen {
+        width: 24px;
+        position: relative;
+        left: 45px;
+    }
+    .pop button{
+        cursor: pointer;
+        padding: 5px 20px;
+        background-color: #f40e0e;
+        color: #fff;
+        border-radius: 10px;
+        border: 3px solid #f40e0e;
+    }
+    
+    .pop button:hover{
+        background-color: rgb(163, 9, 9);
+        
+    }
+    .padgtop{
+        padding-top: 70px;
+    }
+}
